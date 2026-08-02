@@ -1,0 +1,17 @@
+# Transphorm
+
+> Transphorm was a GaN (gallium nitride) power-semiconductor company based in Goleta, California, known for its GaN-on-Si cascode FET technology used in power supplies, adapters, motor drives, solar inverters, and EV charging. It was acquired by Renesas Electronics in June 2024, and transphormusa.com now redirects to the Renesas GaN power-discretes product line. Transphorm publishes no public web API surface; its former developer resources (datasheets, application notes, design tools) live on renesas.com.
+
+## Company
+
+- [Transphorm (now Renesas GaN power discretes)](https://www.renesas.com/en/products/power-discretes/gan-power-discretes): Landing page transphormusa.com redirects to; GaN FETs and bidirectional switches, application notes, product selector, and support community.
+
+## Profile
+
+- [APIs.json profile](https://raw.githubusercontent.com/api-evangelist/transphorm/refs/heads/main/apis.yml): API Evangelist network profile for Transphorm.
+- [Domain security probe](https://raw.githubusercontent.com/api-evangelist/transphorm/refs/heads/main/security/transphorm-domain-security.yml): TLS/HSTS/SPF/DMARC posture of transphormusa.com.
+
+## Notes
+
+- No public API, developer portal, SDK packages (npm/PyPI checked), or first-party GitHub organization was found.
+- The company operates as part of Renesas Electronics; hardware design resources are documented on renesas.com rather than as web APIs.

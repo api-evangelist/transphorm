@@ -1,8 +1,22 @@
 aid: transphorm
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/transphorm.png
 name: Transphorm
-description: 'Transphorm is a company surfaced as a portfolio company of gv, lux-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Transphorm was a GaN (gallium nitride) power-semiconductor company based in
+  Goleta, California, known for its GaN-on-Si cascode FET technology used in power supplies,
+  fast chargers, motor drives, solar inverters, and EV charging. It was acquired by Renesas
+  Electronics in June 2024, and transphormusa.com now redirects to the Renesas GaN
+  power-discretes product line. Transphorm publishes no public web API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/transphorm/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +25,19 @@ x-backed-by:
 - lux-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: renesas
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Frontier Tech
+- Semiconductors
+- Gallium Nitride
+- Power Electronics
+- Hardware
+- Renesas
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +46,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://transphormusa.com
+  url: https://www.transphormusa.com
+- type: DomainSecurity
+  url: security/transphorm-domain-security.yml
+- type: LLMsTxt
+  url: llms/transphorm-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

@@ -1,0 +1,18 @@
+generated: '2026-07-21'
+method: searched
+host: https://www.transphormusa.com
+note: Every path on transphormusa.com returns a blanket 301 redirect to
+  https://www.renesas.com/en/products/power-discretes/gan-power-discretes
+  (Transphorm was acquired by Renesas Electronics; the standalone site is retired).
+  No well-known documents are published on the Transphorm domain.
+documents:
+- path: /.well-known/security.txt
+  status: 301
+- path: /.well-known/openid-configuration
+  status: 301
+- path: /.well-known/oauth-authorization-server
+  status: 301
+- path: /.well-known/api-catalog
+  status: 301
+- path: /.well-known/ai-plugin.json
+  status: 301
