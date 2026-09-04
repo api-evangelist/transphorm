@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.transphormusa.com', status: 301, note: 'declared website redirects to https://www.renesas.com/en/products/power-discretes/gan-power-discretes — a different registrable domain (transphormusa.com -> renesas.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/transphorm.png
 name: Transphorm
 description: 'Transphorm was a GaN (gallium nitride) power-semiconductor company based in
