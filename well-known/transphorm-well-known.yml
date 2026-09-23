@@ -1,18 +1,24 @@
 generated: '2026-07-21'
 method: searched
 host: https://www.transphormusa.com
-note: Every path on transphormusa.com returns a blanket 301 redirect to
-  https://www.renesas.com/en/products/power-discretes/gan-power-discretes
-  (Transphorm was acquired by Renesas Electronics; the standalone site is retired).
-  No well-known documents are published on the Transphorm domain.
-documents:
-- path: /.well-known/security.txt
-  status: 301
-- path: /.well-known/openid-configuration
-  status: 301
-- path: /.well-known/oauth-authorization-server
-  status: 301
-- path: /.well-known/api-catalog
-  status: 301
-- path: /.well-known/ai-plugin.json
-  status: 301
+note: Every path on transphormusa.com returns a blanket 301 redirect to https://www.renesas.com/en/products/power-discretes/gan-power-discretes
+  (Transphorm was acquired by Renesas Electronics; the standalone site is retired). No well-known documents
+  are published on the Transphorm domain.
+hosts:
+- host: https://www.transphormusa.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+  - path: /.well-known/openid-configuration
+    status: 301
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+  - path: /.well-known/api-catalog
+    status: 301
+  - path: /.well-known/ai-plugin.json
+    status: 301
+x-shape-fix:
+  converted: '2026-08-20'
+  from: documents
+  note: Rewritten into hosts[] -> documents[], the only shape well_known_docs() in score.rb reads. A served
+    .well-known surface recorded in any other shape scores as absent.
